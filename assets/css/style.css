@@ -123,7 +123,7 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
     background-color: white;
-    min-height: 360px;
+    min-height: 362px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
