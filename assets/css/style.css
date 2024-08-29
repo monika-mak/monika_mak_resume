@@ -118,10 +118,11 @@ header {
 }
 
 .logo {
-    background: url("../images/rosie.jpg");
+    background: url("../images/monika.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-color: white;
     min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -153,13 +154,13 @@ header {
     padding: 0;
 }
 
-.menuitem {
+.menu-item {
     height: 120px;
     text-align: center;
     padding: 0;
 }
 
-.menuitem a {
+.menu-item a {
     width: 100%;
     text-decoration: none;
     color: #ffffff;
@@ -167,14 +168,14 @@ header {
 }
 
 
-.menuitem a i {
+.menu-item a i {
     padding-top: 22px;
     display: block;
     color: #fafafa;
     font-size: 26px;
 }
 
-.menuitem span {
+.menu-item span {
     display: block;
     width: 100%;
     padding-top: 5px;

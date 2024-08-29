@@ -1,8 +1,8 @@
 function userInformationHTML(user) {
     return `
-        <h2>${user.name}
+        <h2>${user.name || user.login}
             <span class="small-name">
-                (@<a href="${user.html_url}" target="_blank">${user.login}</a>)
+            (@<a href="${user.html_url}" target="_blank">${user.login}</a>)
             </span>
         </h2>
         <div class="gh-content">
